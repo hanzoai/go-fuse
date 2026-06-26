@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/seaweedfs/go-fuse/v2/fs"
-	"github.com/seaweedfs/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fs"
+	"github.com/hanzoai/go-fuse/v2/fuse"
 )
 
 // ExampleMount shows how to create a loopback file system, and

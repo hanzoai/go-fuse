@@ -7,7 +7,7 @@ package nodefs
 import (
 	"time"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fuse"
 )
 
 // NewDefaultNode returns an implementation of Node that returns

@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
-	"github.com/seaweedfs/go-fuse/v2/fuse/nodefs"
-	"github.com/seaweedfs/go-fuse/v2/internal"
+	"github.com/hanzoai/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fuse/nodefs"
+	"github.com/hanzoai/go-fuse/v2/internal"
 )
 
 type loopbackFileSystem struct {

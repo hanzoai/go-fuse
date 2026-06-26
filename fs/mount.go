@@ -7,7 +7,7 @@ package fs
 import (
 	"time"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fuse"
 )
 
 // Mount mounts the given NodeFS on the directory, and starts serving

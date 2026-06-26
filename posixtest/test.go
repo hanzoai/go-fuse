@@ -18,9 +18,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
-	"github.com/seaweedfs/go-fuse/v2/internal/fallocate"
-	"github.com/seaweedfs/go-fuse/v2/internal/xattr"
+	"github.com/hanzoai/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/internal/fallocate"
+	"github.com/hanzoai/go-fuse/v2/internal/xattr"
 	"golang.org/x/sys/unix"
 )
 

@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
-	"github.com/seaweedfs/go-fuse/v2/internal/utimens"
+	"github.com/hanzoai/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/internal/utimens"
 )
 
 func setBlocks(out *fuse.Attr) {

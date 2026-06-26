@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/seaweedfs/go-fuse/v2/fs"
-	"github.com/seaweedfs/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fs"
+	"github.com/hanzoai/go-fuse/v2/fuse"
 )
 
 const fileSize = 2 << 60

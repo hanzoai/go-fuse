@@ -10,10 +10,10 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
-	"github.com/seaweedfs/go-fuse/v2/fuse/nodefs"
-	"github.com/seaweedfs/go-fuse/v2/fuse/pathfs"
-	"github.com/seaweedfs/go-fuse/v2/internal/testutil"
+	"github.com/hanzoai/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fuse/nodefs"
+	"github.com/hanzoai/go-fuse/v2/fuse/pathfs"
+	"github.com/hanzoai/go-fuse/v2/internal/testutil"
 )
 
 type umaskFS struct {

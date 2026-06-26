@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/seaweedfs/go-fuse/v2/internal/testutil"
+	"github.com/hanzoai/go-fuse/v2/internal/testutil"
 )
 
 func TestBufferPool(t *testing.T) {

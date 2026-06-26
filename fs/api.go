@@ -257,7 +257,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fuse"
 )
 
 // InodeEmbedder is an interface for structs that embed Inode.

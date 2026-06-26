@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
-	"github.com/seaweedfs/go-fuse/v2/internal/renameat"
+	"github.com/hanzoai/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/internal/renameat"
 	"github.com/kylelemons/godebug/pretty"
 	"golang.org/x/sys/unix"
 )

@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
-	"github.com/seaweedfs/go-fuse/v2/internal/fallocate"
-	"github.com/seaweedfs/go-fuse/v2/internal/ioctl"
+	"github.com/hanzoai/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/internal/fallocate"
+	"github.com/hanzoai/go-fuse/v2/internal/ioctl"
 	"golang.org/x/sys/unix"
 )
 

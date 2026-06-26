@@ -9,7 +9,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/fuse"
 )
 
 type parentData struct {

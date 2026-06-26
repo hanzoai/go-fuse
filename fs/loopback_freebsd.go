@@ -8,7 +8,7 @@ import (
 	"context"
 	"syscall"
 
-	"github.com/seaweedfs/go-fuse/v2/internal/xattr"
+	"github.com/hanzoai/go-fuse/v2/internal/xattr"
 	"golang.org/x/sys/unix"
 )
 

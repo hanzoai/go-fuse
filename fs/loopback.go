@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/seaweedfs/go-fuse/v2/fuse"
-	"github.com/seaweedfs/go-fuse/v2/internal/openat"
-	"github.com/seaweedfs/go-fuse/v2/internal/renameat"
+	"github.com/hanzoai/go-fuse/v2/fuse"
+	"github.com/hanzoai/go-fuse/v2/internal/openat"
+	"github.com/hanzoai/go-fuse/v2/internal/renameat"
 	"golang.org/x/sys/unix"
 )
 
